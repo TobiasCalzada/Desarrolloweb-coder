@@ -1,0 +1,47 @@
+//estructura-info
+
+main{
+    .seccionInfo1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            @extend %titulosDeInfo;
+        }
+        .comoPrepararMate{
+            @extend %comoInfo;
+        }
+    }
+    .seccionInfo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid rgb(220, 219, 219);
+        h2{
+            @extend %titulosDeInfo;
+        }
+        .comoCurarMate{
+            @extend %comoInfo;
+        }
+    }
+    .seccionInfo3{
+        align-items: center;
+        border-top: 1px solid rgb(220, 219, 219);
+        h2{
+            @extend %titulosDeInfo;
+        }
+        .mitos{
+            display:flex;
+            align-items: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            color: rgb(63, 63, 63);
+            padding-top: 3rem;
+            font-size: 13px;
+            width: 950px;
+            img{
+                margin-left:3rem;
+            }            
+        }
+    }
+}

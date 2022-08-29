@@ -1,0 +1,108 @@
+/*estructura hover sass*/
+
+
+//hover de menu
+.contenedorDeLi{
+    li{
+        a:hover{
+            background-color: rgb(229, 225, 225);
+            box-shadow: 0 0 10px rgb(185, 183, 183), 0 0 10px rgb(185, 183, 183), 0 0 10px rgb(185, 183, 183);
+        }
+    }
+}
+
+//hover de ultimos productos
+.textoCuerpo{
+    .productosLink{
+        a:hover{
+            box-shadow: 2px 3px rgb(48, 48, 48);
+        }
+    }
+}
+
+
+//hover de los productos
+.contenedorDeContenedores{   
+    .mates1{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .mates2{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .mates3{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .mates4{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .mates5{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .mates6{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    /*bombillas*/
+    .bombillas1{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .bombillas2{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .bombillas3{ 
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .bombillas4{ 
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .bombillas5{ 
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .bombillas6{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    /*termos*/
+    .termos1{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .termos2{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .termos3{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+    .termos4{
+        p:hover{
+            @extend %hoverP;
+        }
+    }
+}

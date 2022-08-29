@@ -1,0 +1,26 @@
+//aplicando mixin
+
+@mixin estructuraImagenes {
+    height:150px;
+    width: 150px;
+    margin-top:2rem;
+    border: 1px solid rgb(189, 184, 184);
+    margin-right:0.5rem;
+}
+
+/*div del texto productos*/
+@mixin divDelTexto{
+    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+    max-width: 150px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*texto div del texto productos*/
+@mixin pdivDelTexto{
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    max-height: 2.5rem;
+}

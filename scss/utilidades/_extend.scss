@@ -1,0 +1,24 @@
+//aplicando extend
+
+/*extend info H*/
+%titulosDeInfo{
+    font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-shadow: 3px 2px rgb(134, 131, 131);
+}
+%comoInfo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    padding-top: 3rem;
+    font-size: 15px;
+    width: 950px;
+}
+
+/*hover p*/
+%hoverP{
+    color: antiquewhite;
+    text-shadow: 2px 2px rgb(87, 87, 87);
+}

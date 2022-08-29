@@ -1,0 +1,238 @@
+//estructura header-footer
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*body*/
+body{
+    background-color: whitesmoke;
+    header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: whitesmoke;
+        position: sticky;
+        top:0;
+        z-index: 3;
+        .imagenLogo{
+            a{
+                img{
+                    width: 80%;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+                }
+            }
+        }
+        .navbar{
+            width:40%;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            background-color: whitesmoke;
+            .container-fluid{
+                .contenedorDeLi{
+                    width: 100%;
+                    display: flex;
+                    justify-content:space-around;
+                    li{
+                        a{
+                            transition: 1s;
+                            border-radius:4px;
+                            border:1px solid whitesmoke;
+                        }
+                    }
+                    .dropdown{
+                        .menuDrop{
+                            background-color: whitesmoke;
+                        }                        
+                    }
+                }
+            }
+        }
+        .instagram{
+            margin-right:2rem;
+            background-color: whitesmoke;
+        }  
+    }
+   /*iconos*/
+   .iconos{
+      display: flex;
+      margin-top: 5rem;
+      font-size: 17px;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Oswald', sans-serif;
+      p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+      }
+      .icono1{
+        width: 500px;
+      }
+      .icono2{
+        width: 500px;
+        border-left:1px rgb(181, 179, 179) solid;
+        border-right:1px rgb(181, 179, 179) solid;
+      }
+      .icono3{
+        width: 500px;
+      }
+    }
+    /*ultimos productos*/
+    .textoCuerpo{
+      margin-top: 5rem;
+      text-align: center;
+      background-color: rgb(200, 199, 199);
+      padding: 15px;
+      .titulo{
+          font-size: 18px;
+          font-family: 'Oswald', sans-serif;
+        }
+      .cuerpoP{
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: bold;
+        }
+      .productosLink{
+          a{
+              background-color: rgb(75, 74, 74);
+              padding: 9px; 
+              font-size: 16px;
+              font-family: 'Oswald', sans-serif;
+              text-decoration: none;
+              color: rgb(0, 0, 0);
+              border-radius: 10px;
+              border: 1px 1px black;
+              transition: 0.5s;
+          }
+        }
+    }
+    /*general info*/
+   .contenedorGeneral{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     width: 100%;
+     height:10rem;
+     background-color: whitesmoke;
+     margin-top: 1rem;
+     .diseñoExclusivo{
+         width: 500px;
+         background-color: whitesmoke;
+         .p1{
+             font-size:20px;
+             font-weight: bold;
+             color: black;
+             font-family: 'Oswald', sans-serif;
+        }
+        .p2{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size:14px;
+            font-weight: bold;
+            color: gray;
+        }
+        .p3{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size:14px;
+            font-weight: bold;
+            color: gray;
+        }              
+     }
+     .contactanos{
+        width: 500px;
+        background-color: whitesmoke;
+        .p4{
+            font-size:20px;
+            font-weight: bold;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+        }
+         p{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size:14px;
+            font-weight: bold;
+            color: gray;
+        }
+     }
+    }
+
+    /*mapa*/
+  .mapa{
+      width: 100%;
+      height:15rem;
+      iframe{
+        width: 100%;
+        height:100%;
+        padding: 1rem;
+    }
+   } 
+   //pie de pagina
+   footer{
+   /*pie de pagina*/
+  .pieDePagina{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-top: 2px solid rgb(210, 208, 208);
+    padding-top: 2rem;
+    height: 10rem;
+    p{
+       margin-top: 1rem;
+       margin-left: 1rem;
+       font-family: 'Oswald', sans-serif;
+       font-weight: bold;
+       font-size: 15px;
+   }
+   div{
+       height:3rem;
+       width:3rem;
+       margin-left: 1rem;
+       img{
+           height:100%;
+           width:100%;
+       }
+   }
+   .textoPieDePagina{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+       height: 100%;
+       .subtitulo{
+           font-family: 'Oswald', sans-serif;
+           font-weight: bold;
+           font-size: 17px;
+           text-shadow: 3px 1px rgb(213, 213, 213);
+       }
+       .textoPieDePagina .texto1{
+           font-size: 12px;
+       }
+       .textoPieDePagina .texto2{
+           font-size: 12px;
+           padding-bottom: 1rem;
+       }
+   }
+ }
+ /*copy*/
+ .copy{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 3rem;
+     background-color: rgb(41, 40, 40);
+     p{
+       font-size: 7px;
+       color: whitesmoke;
+       padding-top:15px;
+   }
+ }
+   }
+
+}
+
+

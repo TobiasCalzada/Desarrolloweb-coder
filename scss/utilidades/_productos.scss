@@ -1,0 +1,214 @@
+//estructura productos-general
+
+/*PRODUCTOS*/
+.contenedorImagenesGrid{
+    height: 950px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    .contenedorDeContenedores{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:2fr 2fr 2fr 2fr;
+        display: grid;
+        grid-template-areas: "mate1 mate2 mate3 mate4 mate5 mate6"
+                             "bombilla1 bombilla2 bombilla3 bombilla4 bombilla5 bombilla6"
+                             "termo1 termo2 termo3 termo4 termo4 termo4";
+        
+        justify-content:space-evenly;
+        align-items:center;
+        .mates1{
+            grid-area: mate1;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .mates2{
+            grid-area: mate2;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .mates3{
+            grid-area: mate3;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .mates4{
+            grid-area: mate4; 
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .mates5{
+            grid-area: mate5; 
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;                  
+                }
+            }
+        }
+        .mates6{
+            grid-area: mate6; 
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;                                       
+                }
+            }
+        }
+        /*bombillas*/
+        .bombillas1{
+            grid-area: bombilla1;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .bombillas2{
+            grid-area: bombilla2;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .bombillas3{
+            grid-area: bombilla3; 
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            } 
+        }
+        .bombillas4{
+            grid-area: bombilla4;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            } 
+        }
+        .bombillas5{
+            grid-area: bombilla5;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .bombillas6{
+            grid-area: bombilla6;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        /*termos*/
+        .termos1{
+            grid-area: termo1;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            }
+        }
+        .termos2{
+            grid-area: termo2;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;
+                }
+            } 
+        }
+        .termos3{
+            grid-area: termo3;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            } 
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;      
+                }
+            }
+        }
+        .termos4{
+            grid-area: termo4;
+            .imagenesProductos{
+                @include estructuraImagenes;
+            }
+            .divDelTexto{
+                @include divDelTexto;
+                p{
+                    @include pdivDelTexto;     
+                }
+            }
+        }
+    }
+}

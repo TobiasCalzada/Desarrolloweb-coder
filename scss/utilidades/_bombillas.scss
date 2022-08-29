@@ -1,0 +1,11 @@
+//estructura bombillas
+
+.mainDeBombillas{
+    height: 400px;
+    .contenedorImagenesGrid{
+        .contenedorDeContenedores{
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+}

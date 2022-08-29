@@ -1,0 +1,1505 @@
+//estructura-mediasqueris
+@media (max-width:991px) and (min-width:800px) {
+    .header{
+        .instagram{
+            margin-top: 0px;
+        }
+        .navbar{
+            border: 1px solid rgb(188, 184, 184);
+            border-radius:5px;
+            margin-top:20px;
+            margin-left: 60%;
+            width:25%;
+            font-size: 19px;
+            position: absolute;
+            top:0;
+            z-index:5;
+            .contenedorDeLi{
+                width: 100%;
+                padding-top:1rem;
+                .dropdown{
+                    .menuDrop{
+                        li{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .imagenesIndexSeccion{
+        .divImgIndex{
+            max-width: 200px;
+            max-height: 200px
+        }
+    }
+    /*pie de pagina queri*/
+    footer{
+        .pieDePagina{
+            .textoPieDePagina{
+                .texto1{
+                    font-size: 11px;
+                }
+                .texto2{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    /*info queris*/
+    .seccionInfo1{
+        .comoPrepararMate{
+            max-width: 700px;
+            ol{
+                width: 700px;
+                font-size: 11px;
+            }
+        }
+        iframe{
+            width: 700px;
+            height: 300px;
+        }
+    }
+    .seccionInfo2{
+        .comoCurarMate{
+            max-width: 700px;
+            ol{
+                width: 700px;
+                font-size: 11px;
+            }
+        }
+        iframe{
+            width: 700px;
+            height: 300px;
+        }
+    }
+    .seccionInfo3{
+        margin-left: 5%;
+        margin-right: 5%;
+        .mitos{
+            max-width: 700px;
+            margin-right: 5rem;
+            ol{
+                width: 700px;
+                font-size: 11px;
+                margin-left: 5rem;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+            } 
+        }
+    }
+    /*productos queris*/
+    .contenedorImagenesGrid{
+        height: 750px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2rem;
+        .contenedorDeContenedores{
+            /*mates*/
+            .mates1{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates2{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates3{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates4{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates5{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates6{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            /*bombillas*/
+            .bombillas1{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas2{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas3{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas4{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas5{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas6{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            /*termos*/
+            .termos1{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos2{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos3{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos4{
+                .imagenesProductos{
+                    height:120px;
+                    width: 120px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 120px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+        }
+    }
+    .mainDeMate{
+        height: 200px;
+    }
+    .mainDeBombillas{
+        height: 200px;
+    }
+    .mainDeTermos{
+        height: 200px;
+    }
+}
+
+/*media de tablet*/
+@media (max-width:800px) and (min-width:650px) {
+    .header{
+        .instagram{
+            margin-top: 0px;
+        }
+        .navbar{
+            border: 1px solid rgb(188, 184, 184);
+            border-radius:5px;
+            margin-top:26px;
+            margin-left:50%;
+            width:29%;
+            font-size: 19px;
+            position: absolute;
+            top:0;
+            z-index:5;
+            .contenedorDeLi{
+                width: 100%;
+                padding-top:1.2rem;
+                .dropdown{
+                    .menuDrop{
+                        li{
+                            font-size: 17px;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .imagenesIndexSeccion{
+        .divImgIndex{
+            max-width: 160px;
+            max-height: 160px;
+        }
+    }
+    .contenedorEtiqueta{
+        p{
+            font-size: 9px;
+            padding-left:1rem ;
+            padding-right: 1rem;
+        }
+    }
+    footer{
+        .pieDePagina{
+            .imgDePieDePagina3{     
+                height:2rem;
+                width:2rem;
+                margin-left:5px;   
+            }
+            .textoPieDePagina{
+                .texto1{
+                    font-size: 9px;
+                }
+                .texto2{
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+     /*info queris*/
+     .seccionInfo1{
+        .comoPrepararMate{
+            max-width: 600px;
+            ol{
+                width: 600px;
+                font-size: 11px;
+            }
+        }
+        iframe{
+            width: 600px;
+            height: 300px;
+        }
+    }
+    .seccionInfo2{
+        .comoCurarMate{
+            max-width: 600px;
+            ol{
+                width: 600px;
+                font-size: 11px;
+            }
+        }
+        iframe{
+            width: 600px;
+            height: 300px;
+        }
+    }
+    .seccionInfo3{
+        margin-left: 5%;
+        margin-right: 5%;
+        .mitos{
+            max-width: 600px;
+            margin-right: 5rem;
+            ol{
+                width: 600px;
+                font-size: 10px;
+                margin-left: 4rem;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            } 
+        }
+    }
+    /*productos queri*/
+    .contenedorImagenesGrid{
+       height: 1200px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        .contenedorDeContenedores{
+            grid-template-columns:auto;
+            grid-template-rows:auto;
+            display: grid;
+            grid-template-areas: "mate1 mate2 mate3"
+                                 "mate4 mate5 mate6"
+                                 "bombilla1 bombilla2 bombilla3"
+                                 "bombilla4 bombilla5 bombilla6"
+                                 "termo1 termo2 termo3"
+                                 "termo4 termo4 termo4";
+            
+            justify-content:space-around;
+            align-items:center;
+              /*mates*/
+              .mates1{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates2{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates3{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates4{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates5{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .mates6{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            /*bombillas*/
+            .bombillas1{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas2{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas3{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas4{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas5{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .bombillas6{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            /*termos*/
+            .termos1{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos2{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos3{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+            .termos4{
+                .imagenesProductos{
+                    height:100px;
+                    width: 100px;
+                    margin-top:2rem;
+                    border: 1px solid rgb(189, 184, 184);
+                    margin-right:0.2rem;
+                }
+                .divDelTexto{
+                    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                    max-width: 100px;
+                    padding: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                    p{
+                        font-size: 9px;
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: bold;
+                        text-align: left;
+                        max-height: 1.7rem;
+                    }  
+                }
+            }
+        }
+    } 
+    /*bombillas queri*/
+    .mainDeBombillas{
+        .contenedorImagenesGrid{
+            .contenedorDeContenedores{
+                grid-template-columns:auto;
+                grid-template-rows:auto;
+                display: grid;
+                grid-template-areas: "bombilla1 bombilla2 bombilla3"
+                                     "bombilla4 bombilla5 bombilla6";
+                justify-content:space-around;
+                align-items:center;
+            }
+        }
+    }
+    /*termo queri*/
+    .mainDeTermos{
+        .contenedorImagenesGrid{
+            .contenedorDeContenedores{
+                grid-template-columns:auto;
+                grid-template-rows:auto;
+                display: grid;
+                grid-template-areas:"termo1 termo2 termo3"
+                                    "termo4 termo4 termo4";
+                justify-content:space-around;
+                align-items:center;
+            }
+        }
+    }
+}
+
+/*media mobil*/
+@media (max-width:650px) and (min-width:490px){
+    .header{
+        .instagram{
+            margin-right:2rem;
+            background-color: whitesmoke;
+        }
+        .navbar{
+            border: 1px solid rgb(188, 184, 184);
+            border-radius:5px;
+            margin-top:26px;
+            margin-left:35%;
+            width:40%;
+            font-size: 14px;
+            position: absolute;
+            top:0;
+            z-index:2;
+            .contenedorDeLi{
+                width: 100%;
+                padding-top:1.2rem;
+                .dropdown{
+                    .menuDrop{
+                        li{
+                            font-size: 17px;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .contenedorDeImgPrincipal{
+                .contenedorImg{
+                    div{
+                        img{
+                            height: 420px;
+                            object-fit: fill
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .imagenesIndexSeccion{
+        .divImgIndex{
+            max-width: 130px;
+            max-height: 130px;
+        }
+    }
+    .contenedorEtiqueta{
+        p{
+            font-size: 8.5px;
+            padding-left:1rem ;
+            padding-right: 1rem;
+        }
+    }
+    footer{
+        .pieDePagina{
+            .pDePie{
+                font-size: 11px;
+            }
+            .imgDePieDePagina3{     
+                height:3rem;
+                width:3rem;
+                margin-left:4px;  
+            }
+            .textoPieDePagina{
+                margin-left: 1rem;
+                margin-right: 1rem;
+                .texto1{
+                    font-size:7px;
+                }
+                .texto2{
+                    font-size:7px;
+                }
+            }
+        }
+    }
+    /*info queris*/
+    .seccionInfo1{
+        .comoPrepararMate{
+            max-width: 400px;
+            ol{
+                width: 400px;
+                font-size: 10px;
+            }
+        }
+        iframe{
+            height:200px;
+            width:350px;
+        }
+    }
+    .seccionInfo2{
+        .comoCurarMate{
+            max-width: 400px;
+            ol{
+                width: 400px;
+                font-size: 10px;
+            }
+        }
+        iframe{
+            height:200px;
+            width:350px;
+        }
+    }
+    .seccionInfo3{
+        margin-left: 10%;
+        .mitos{
+            max-width: 400px;
+            ol{
+                width: 500px;
+                font-size: 10px;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+            } 
+        }
+    }
+     /*productos queri*/
+     .contenedorImagenesGrid{
+        height: 1200px;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         .contenedorDeContenedores{
+             grid-template-columns:auto;
+             grid-template-rows:auto;
+             display: grid;
+             grid-template-areas: "mate1 mate2 mate3"
+                                  "mate4 mate5 mate6"
+                                  "bombilla1 bombilla2 bombilla3"
+                                  "bombilla4 bombilla5 bombilla6"
+                                  "termo1 termo2 termo3"
+                                  "termo4 termo4 termo4";
+             
+             justify-content:space-around;
+             align-items:center;
+               /*mates*/
+               .mates1{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .mates2{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .mates3{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .mates4{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .mates5{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .mates6{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             /*bombillas*/
+             .bombillas1{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .bombillas2{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .bombillas3{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .bombillas4{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .bombillas5{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .bombillas6{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             /*termos*/
+             .termos1{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .termos2{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .termos3{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+             .termos4{
+                 .imagenesProductos{
+                     height:100px;
+                     width: 100px;
+                     margin-top:2rem;
+                     border: 1px solid rgb(189, 184, 184);
+                     margin-right:0.2rem;
+                 }
+                 .divDelTexto{
+                     background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+                     max-width: 100px;
+                     padding: 5px;
+                     border-radius: 0px 0px 10px 10px;
+                     p{
+                         font-size: 9px;
+                         font-family: 'Oswald', sans-serif;
+                         font-weight: bold;
+                         text-align: left;
+                         max-height: 1.7rem;
+                     }  
+                 }
+             }
+         }
+     } 
+     /*bombillas queri*/
+     .mainDeBombillas{
+         .contenedorImagenesGrid{
+             .contenedorDeContenedores{
+                 grid-template-columns:auto;
+                 grid-template-rows:auto;
+                 display: grid;
+                 grid-template-areas: "bombilla1 bombilla2 bombilla3"
+                                      "bombilla4 bombilla5 bombilla6";
+                 justify-content:space-around;
+                 align-items:center;
+             }
+         }
+     }
+     /*termo queri*/
+     .mainDeTermos{
+         .contenedorImagenesGrid{
+             .contenedorDeContenedores{
+                 grid-template-columns:auto;
+                 grid-template-rows:auto;
+                 display: grid;
+                 grid-template-areas:"termo1 termo2 termo3"
+                                     "termo4 termo4 termo4";
+                 justify-content:space-around;
+                 align-items:center;
+             }
+         }
+     }
+}
+    
+    
+
+

@@ -1,104 +1,266 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+@charset "UTF-8";
+/*div del texto productos*/
+/*texto div del texto productos*/
+/*extend info H*/
+main .seccionInfo1 h1, main .seccionInfo2 h2, main .seccionInfo3 h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-shadow: 3px 2px #868383; }
+
+main .seccionInfo1 .comoPrepararMate, main .seccionInfo2 .comoCurarMate {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #3f3f3f;
+  padding-top: 3rem;
+  font-size: 15px;
+  width: 950px; }
+
+/*hover p*/
+.contenedorDeContenedores .mates1 p:hover, .contenedorDeContenedores .mates2 p:hover, .contenedorDeContenedores .mates3 p:hover, .contenedorDeContenedores .mates4 p:hover, .contenedorDeContenedores .mates5 p:hover, .contenedorDeContenedores .mates6 p:hover, .contenedorDeContenedores .bombillas1 p:hover, .contenedorDeContenedores .bombillas2 p:hover, .contenedorDeContenedores .bombillas3 p:hover, .contenedorDeContenedores .bombillas4 p:hover, .contenedorDeContenedores .bombillas5 p:hover, .contenedorDeContenedores .bombillas6 p:hover, .contenedorDeContenedores .termos1 p:hover, .contenedorDeContenedores .termos2 p:hover, .contenedorDeContenedores .termos3 p:hover, .contenedorDeContenedores .termos4 p:hover {
+  color: antiquewhite;
+  text-shadow: 2px 2px #575757; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
 /*body*/
-body{
-    background-color: whitesmoke;
-}
-
-/*header*/
-.header{
+body {
+  background-color: whitesmoke;
+  /*iconos*/
+  /*ultimos productos*/
+  /*general info*/
+  /*mapa*/ }
+  body header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: whitesmoke;
     position: sticky;
-    top:0;
-    z-index: 3;  
-}
-.imagenLogo a img{
-    width: 80%;
-    padding-top: 1rem;
-    padding-left: 1rem;
-}
-
-
-/*menu*/
-.navbar{
-    width:40%;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    top: 0;
+    z-index: 3; }
+    body header .imagenLogo a img {
+      width: 80%;
+      padding-top: 1rem;
+      padding-left: 1rem; }
+    body header .navbar {
+      width: 40%;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      background-color: whitesmoke; }
+      body header .navbar .container-fluid .contenedorDeLi {
+        width: 100%;
+        display: flex;
+        justify-content: space-around; }
+        body header .navbar .container-fluid .contenedorDeLi li a {
+          transition: 1s;
+          border-radius: 4px;
+          border: 1px solid whitesmoke; }
+        body header .navbar .container-fluid .contenedorDeLi .dropdown .menuDrop {
+          background-color: whitesmoke; }
+    body header .instagram {
+      margin-right: 2rem;
+      background-color: whitesmoke; }
+  body .iconos {
     display: flex;
-    background-color: whitesmoke;
-}
-.contenedorDeLi{
-    width: 100%;
+    margin-top: 5rem;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oswald', sans-serif; }
+    body .iconos p {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px; }
+    body .iconos .icono1 {
+      width: 500px; }
+    body .iconos .icono2 {
+      width: 500px;
+      border-left: 1px #b5b3b3 solid;
+      border-right: 1px #b5b3b3 solid; }
+    body .iconos .icono3 {
+      width: 500px; }
+  body .textoCuerpo {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: #c8c7c7;
+    padding: 15px; }
+    body .textoCuerpo .titulo {
+      font-size: 18px;
+      font-family: 'Oswald', sans-serif; }
+    body .textoCuerpo .cuerpoP {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold; }
+    body .textoCuerpo .productosLink a {
+      background-color: #4b4a4a;
+      padding: 9px;
+      font-size: 16px;
+      font-family: 'Oswald', sans-serif;
+      text-decoration: none;
+      color: black;
+      border-radius: 10px;
+      border: 1px 1px black;
+      transition: 0.5s; }
+  body .contenedorGeneral {
     display: flex;
-    justify-content:space-around;
-}
-.contenedorDeLi li a{
-    transition: 1s;
-    border-radius: 4px;
-    border: 1px solid whitesmoke;
-}
-.contenedorDeLi li a:hover{
-    background-color: rgb(229, 225, 225);
-    box-shadow: 0 0 10px rgb(185, 183, 183), 0 0 10px rgb(185, 183, 183), 0 0 10px rgb(185, 183, 183);
-}
-.instagram{
-    margin-right:2rem;
-    background-color: whitesmoke;
-}
-.menuDrop{
-    background-color: whitesmoke;
-}
-
-
-/*slider*/
-.contenedorDeImgPrincipal{
+    justify-content: space-around;
+    text-align: center;
     width: 100%;
-    margin-top: 2rem;
-}
-.contenedorImg img{
+    height: 10rem;
+    background-color: whitesmoke;
+    margin-top: 1rem; }
+    body .contenedorGeneral .diseñoExclusivo {
+      width: 500px;
+      background-color: whitesmoke; }
+      body .contenedorGeneral .diseñoExclusivo .p1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: 'Oswald', sans-serif; }
+      body .contenedorGeneral .diseñoExclusivo .p2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: gray; }
+      body .contenedorGeneral .diseñoExclusivo .p3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: gray; }
+    body .contenedorGeneral .contactanos {
+      width: 500px;
+      background-color: whitesmoke; }
+      body .contenedorGeneral .contactanos .p4 {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: 'Oswald', sans-serif; }
+      body .contenedorGeneral .contactanos p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: gray; }
+  body .mapa {
+    width: 100%;
+    height: 15rem; }
+    body .mapa iframe {
+      width: 100%;
+      height: 100%;
+      padding: 1rem; }
+  body footer {
+    /*pie de pagina*/
+    /*copy*/ }
+    body footer .pieDePagina {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 2px solid #d2d0d0;
+      padding-top: 2rem;
+      height: 10rem; }
+      body footer .pieDePagina p {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 15px; }
+      body footer .pieDePagina div {
+        height: 3rem;
+        width: 3rem;
+        margin-left: 1rem; }
+        body footer .pieDePagina div img {
+          height: 100%;
+          width: 100%; }
+      body footer .pieDePagina .textoPieDePagina {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%; }
+        body footer .pieDePagina .textoPieDePagina .subtitulo {
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          font-size: 17px;
+          text-shadow: 3px 1px #d5d5d5; }
+        body footer .pieDePagina .textoPieDePagina .textoPieDePagina .texto1 {
+          font-size: 12px; }
+        body footer .pieDePagina .textoPieDePagina .textoPieDePagina .texto2 {
+          font-size: 12px;
+          padding-bottom: 1rem; }
+    body footer .copy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+      background-color: #292828; }
+      body footer .copy p {
+        font-size: 7px;
+        color: whitesmoke;
+        padding-top: 15px; }
+
+/*estructura hover sass*/
+.contenedorDeLi li a:hover {
+  background-color: #e5e1e1;
+  box-shadow: 0 0 10px #b9b7b7, 0 0 10px #b9b7b7, 0 0 10px #b9b7b7; }
+
+.textoCuerpo .productosLink a:hover {
+  box-shadow: 2px 3px #303030; }
+
+.contenedorDeContenedores {
+  /*bombillas*/
+  /*termos*/ }
+
+main section .contenedorDeImgPrincipal {
+  width: 100%;
+  margin-top: 2rem; }
+  main section .contenedorDeImgPrincipal .contenedorImg img {
     height: 600px;
-    object-fit: fill;
-}
+    object-fit: fill; }
 
 /*img index*/
-.imagenesIndexSeccion{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-    padding: 1rem;
-}
-.divImgIndex{
+.imagenesIndexSeccion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  padding: 1rem; }
+  .imagenesIndexSeccion .divImgIndex {
     max-width: 300px;
     max-height: 300px;
     animation-name: divImagenesDelIndex;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    border: 1px solid rgb(196, 195, 195) ;
-}
-@keyframes  divImagenesDelIndex{
-    0%{}
-    50%{ box-shadow: 0 0 10px rgb(185, 183, 183), 0 0 60px rgb(185, 183, 183), 0 0 50px rgb(185, 183, 183);}
-    100%{}
-}
-.imgIndex{
-    height: 100%;
-    width: 100%;
-    border-radius:7px;
-}
+    border: 1px solid #c4c3c3; }
+    .imagenesIndexSeccion .divImgIndex a .imgIndex {
+      height: 100%;
+      width: 100%;
+      border-radius: 7px; }
+
+@keyframes divImagenesDelIndex {
+  0% { }
+  50% {
+    box-shadow: 0 0 10px #b9b7b7, 0 0 60px #b9b7b7, 0 0 50px #b9b7b7; }
+  100% { } }
 
 /*etiqueta*/
-.contenedorEtiqueta{
-    margin-top: 3rem;
-}
-.contenedorEtiqueta p{
+.contenedorEtiqueta {
+  margin-top: 3rem; }
+  .contenedorEtiqueta .ContenedorMateYLogo {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(whitesmoke, #adabab); }
+    .contenedorEtiqueta .ContenedorMateYLogo img {
+      margin-left: 20px;
+      margin-right: 20px; }
+    .contenedorEtiqueta .ContenedorMateYLogo .matePngEtiqueta {
+      height: 60px;
+      width: 60px; }
+  .contenedorEtiqueta p {
     height: 4rem;
     background-color: black;
     color: whitesmoke;
@@ -106,867 +268,1466 @@ body{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-top: 5px;
-    font-weight: bold;
-}
-.ContenedorMateYLogo{
+    font-weight: bold; }
+
+main div div div div .headerDeContactos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+main .tituloFormulario {
+  font-family: 'Oswald', sans-serif; }
+
+main form div .fuenteDeLabel {
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+main .seccionInfo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .seccionInfo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #dcdbdb; }
+
+main .seccionInfo3 {
+  align-items: center;
+  border-top: 1px solid #dcdbdb; }
+  main .seccionInfo3 .mitos {
     display: flex;
-    justify-content: center;
-    background: radial-gradient(whitesmoke,rgb(173, 171, 171));
-}
-.ContenedorMateYLogo img{
-    margin-left:20px;
-    margin-right:20px;
-}
-.ContenedorMateYLogo .matePngEtiqueta{
-    height: 60px;
-    width: 60px;
-}
-
-/*iconos*/
-.iconos{
-    display: flex;
-    margin-top: 5rem;
-    font-size: 17px;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-.iconos p{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-}
-.icono1{
-    width: 500px;
-}
-.icono2{
-    width: 500px;
-    border-left:1px rgb(181, 179, 179) solid;
-    border-right:1px rgb(181, 179, 179) solid;
-}
-.icono3{
-    width: 500px;
-}
-
-/*ultimos productos*/
-.textoCuerpo{
-    margin-top: 5rem;
-    text-align: center;
-    background-color: rgb(200, 199, 199);
-    padding: 15px;
-}
-.titulo{
-    font-size: 18px;
-    font-family: 'Oswald', sans-serif;
-}
-.cuerpoP{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-}
-.productosLink a{
-    background-color: rgb(75, 74, 74);
-    padding: 9px; 
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    border: 1px 1px black;
-    transition: 0.5s;
-}
-.productosLink a:hover{
-    box-shadow: 2px 3px rgb(48, 48, 48);
-}
-
-/*general info*/
-.contenedorGeneral{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    width: 100%;
-    height:10rem;
-    background-color: whitesmoke;
-    margin-top: 1rem;
-}
-
-/*diseño*/
-.diseñoExclusivo{
-    width: 500px;
-    background-color: whitesmoke;
-}
-.diseñoExclusivo .p1{
-    font-size:20px;
-    font-weight: bold;
-    color: black;
-    font-family: 'Oswald', sans-serif;
-}
-.diseñoExclusivo .p2{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:14px;
-    font-weight: bold;
-    color: gray;
-}
-.diseñoExclusivo .p3{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:14px;
-    font-weight: bold;
-    color: gray;
-}
-
-/*contactanos*/
-.contactanos{
-    width: 500px;
-    background-color: whitesmoke;
-}
-.contactanos .p4{
-    font-size:20px;
-    font-weight: bold;
-    color: black;
-    font-family: 'Oswald', sans-serif;
-}
-.contactanos  p{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:14px;
-    font-weight: bold;
-    color: gray;
-}
-
-/*mapa*/
-.mapa{
-    width: 100%;
-    height:15rem;
-}
-.mapa iframe{
-    width: 100%;
-    height:100%;
-    padding: 1rem;
-}
-
-
-/*pie de pagina*/
-.pieDePagina{
-    display: flex;
-    align-items: center;
-    justify-content:start;
-    border-top: 2px solid rgb(210, 208, 208);
-    padding-top: 2rem;
-    height: 10rem;
-}
-
-/*pie de pagina tarjetas*/
-.pieDePagina p{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-}
-.pieDePagina div{
-    height:4rem;
-    width:4rem;
-    margin-left: 2rem;
-}
-.pieDePagina div img{
-    height:100%;
-    width:100%;
-}
-
-
-/*pie de pagina texto*/
-.textoPieDePagina{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    padding-top: 2rem;
-}
-.textoPieDePagina .subtitulo{
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    text-shadow: 3px 1px rgb(213, 213, 213);
-}
-.textoPieDePagina .texto1{
-    font-size: 12px;
-}
-.textoPieDePagina .texto2{
-    font-size: 12px;
-    padding-bottom: 1rem;
-}
-
-/*copy*/
-.copy{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    background-color: rgb(41, 40, 40);
-}
-.copy p{
-    font-size: 7px;
-    color: whitesmoke;
-    padding-top:15px;
-}
-
-/*CONTACTOS HTML*/
-
-/*formulario*/
-.headerDeContactos{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.tituloFormulario{
-    font-family: 'Oswald', sans-serif;
-}
-.fuenteDeLabel{
-    font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-/*iNFORMACION HTML*/
-
-/*info*/
-.seccionInfo1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.seccionInfo1 h1{
-    font-family: 'Oswald', sans-serif;
-    text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-shadow: 3px 2px rgb(134, 131, 131);
-}
-.comoPrepararMate{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: rgb(63, 63, 63);
-    padding-top: 3rem;
-    font-size: 15px;
-    width: 950px;
-}
-/*seccion-2*/
-.seccionInfo2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 1px solid rgb(220, 219, 219);
-}
-.seccionInfo2 h2{
-    font-family: 'Oswald', sans-serif;
-    text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-shadow: 3px 2px rgb(134, 131, 131);
-}
-.comoCurarMate{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: rgb(63, 63, 63);
-    padding-top: 3rem;
-    font-size: 15px;
-    width: 950px;
-}
-/*seccion-3*/
-.seccionInfo3{
-    align-items: center;
-    border-top: 1px solid rgb(220, 219, 219);
-}
-.seccionInfo3 h2{
-    font-family: 'Oswald', sans-serif;
-    text-align: center; 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-shadow: 3px 2px rgb(134, 131, 131);
-}
-.mitos{
-    display:flex;
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    color: rgb(63, 63, 63);
+    color: #3f3f3f;
     padding-top: 3rem;
     font-size: 13px;
-    width: 950px;
-}
-.mitos img{
-    margin-right:3rem;
-}
+    width: 950px; }
+    main .seccionInfo3 .mitos img {
+      margin-left: 3rem; }
 
-/*PRODUCTOS HTML*/
+/*PRODUCTOS*/
+.contenedorImagenesGrid {
+  height: 950px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem; }
+  .contenedorImagenesGrid .contenedorDeContenedores {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    display: grid;
+    grid-template-areas: "mate1 mate2 mate3 mate4 mate5 mate6" "bombilla1 bombilla2 bombilla3 bombilla4 bombilla5 bombilla6" "termo1 termo2 termo3 termo4 termo4 termo4";
+    justify-content: space-evenly;
+    align-items: center;
+    /*bombillas*/
+    /*termos*/ }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates1 {
+      grid-area: mate1; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates2 {
+      grid-area: mate2; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates3 {
+      grid-area: mate3; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates4 {
+      grid-area: mate4; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates5 {
+      grid-area: mate5; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .mates6 {
+      grid-area: mate6; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 {
+      grid-area: bombilla1; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 {
+      grid-area: bombilla2; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 {
+      grid-area: bombilla3; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 {
+      grid-area: bombilla4; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 {
+      grid-area: bombilla5; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 {
+      grid-area: bombilla6; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .termos1 {
+      grid-area: termo1; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .termos2 {
+      grid-area: termo2; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .termos3 {
+      grid-area: termo3; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores .termos4 {
+      grid-area: termo4; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .imagenesProductos {
+        height: 150px;
+        width: 150px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.5rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 150px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto p {
+          font-size: 12px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 2.5rem; }
 
-/*productos*/
-/*mates*/
-.contenedorImagenesGrid{
-    height: 950px;
+.mainDeMate {
+  height: 400px; }
+
+.mainDeBombillas {
+  height: 400px; }
+  .mainDeBombillas .contenedorImagenesGrid .contenedorDeContenedores {
+    display: flex;
+    align-items: flex-start; }
+
+.mainDeTermos {
+  height: 400px; }
+  .mainDeTermos .contenedorImagenesGrid .contenedorDeContenedores {
+    display: flex;
+    align-items: flex-start; }
+
+@media (max-width: 991px) and (min-width: 800px) {
+  .header .instagram {
+    margin-top: 0px; }
+  .header .navbar {
+    border: 1px solid #bcb8b8;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 60%;
+    width: 25%;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    z-index: 5; }
+    .header .navbar .contenedorDeLi {
+      width: 100%;
+      padding-top: 1rem; }
+      .header .navbar .contenedorDeLi .dropdown .menuDrop li {
+        font-size: 20px; }
+  .imagenesIndexSeccion .divImgIndex {
+    max-width: 200px;
+    max-height: 200px; }
+  /*pie de pagina queri*/
+  footer .pieDePagina .textoPieDePagina .texto1 {
+    font-size: 11px; }
+  footer .pieDePagina .textoPieDePagina .texto2 {
+    font-size: 11px; }
+  /*info queris*/
+  .seccionInfo1 .comoPrepararMate {
+    max-width: 700px; }
+    .seccionInfo1 .comoPrepararMate ol {
+      width: 700px;
+      font-size: 11px; }
+  .seccionInfo1 iframe {
+    width: 700px;
+    height: 300px; }
+  .seccionInfo2 .comoCurarMate {
+    max-width: 700px; }
+    .seccionInfo2 .comoCurarMate ol {
+      width: 700px;
+      font-size: 11px; }
+  .seccionInfo2 iframe {
+    width: 700px;
+    height: 300px; }
+  .seccionInfo3 {
+    margin-left: 5%;
+    margin-right: 5%; }
+    .seccionInfo3 .mitos {
+      max-width: 700px;
+      margin-right: 5rem; }
+      .seccionInfo3 .mitos ol {
+        width: 700px;
+        font-size: 11px;
+        margin-left: 5rem; }
+      .seccionInfo3 .mitos img {
+        width: 300px;
+        height: 300px; }
+  /*productos queris*/
+  .contenedorImagenesGrid {
+    height: 750px;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 2rem;
-}
-
-.mate1{
-    grid-area: mate1;
-}
-.mate2{
-    grid-area: mate2; 
-}
-.mate3{
-    grid-area: mate3;
-}
-.mate4{
-    grid-area: mate4; 
-}
-.mate5{
-    grid-area: mate5; 
-}
-.mate6{
-    grid-area: mate6; 
-}
-/*bombillas*/
-.bombillas1{
-    grid-area: bombilla1;
-}
-.bombillas2{
-    grid-area: bombilla2;
-}
-.bombillas3{
-    grid-area: bombilla3;  
-}
-.bombillas4{
-    grid-area: bombilla4; 
-}
-.bombillas5{
-    grid-area: bombilla5;
-}
-.bombillas6{
-    grid-area: bombilla6;
-}
-/*termos*/
-.termos1{
-    grid-area: termo1;
-}
-.termos2{
-    grid-area: termo2; 
-}
-.termos3{
-    grid-area: termo3; 
-}
-.termos4{
-    grid-area: termo4;
-}
-
-.imagenesProductos{
-    height:150px;
-    width: 150px;
-    margin-top:2rem;
-    border: 1px solid rgb(189, 184, 184);
-    margin-right:0.5rem;
-}
-.divDelTexto{
-    background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
-    max-width: 150px;
-    padding: 5px;
-    border-radius: 0px 0px 10px 10px;
-}
-.divDelTexto:hover{
-    background:linear-gradient(rgb(108, 106, 106),rgb(31, 31, 32)) ;
-}
-.divDelTexto p{
-    font-size: 12px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    text-align: left;
-    max-height: 2.5rem;
-}
-.divDelTexto p:hover{
-    color: antiquewhite;
-}
-.contenedorDeContenedores{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:2fr 2fr 2fr 2fr;
-    display: grid;
-    grid-template-areas: "mate1 mate2 mate3 mate4 mate5 mate6"
-                         "bombilla1 bombilla2 bombilla3 bombilla4 bombilla5 bombilla6"
-                         "termo1 termo2 termo3 termo4 termo4 termo4";
-    
-    justify-content:space-evenly;
-    align-items:center;
-}
-
-
-/*MAATES HTTML*/
-.contenedorMate{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom:6rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-/*BOMBILLAS HTML*/
-.contenedorbomBombilla{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom:6rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-/*TERMOS HTML*/
-.contenedorbomTermos{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom:6rem;
-}
-
-/*QUERIS*/
-@media (max-width:991px) and (min-width:800px) {
-    /*inicio*/
-    .instagram{
-        margin-top: 0px;
-    }
-    .navbar{
-        border: 1px solid rgb(188, 184, 184);
-        border-radius:5px;
-        margin-top:20px;
-        margin-left: 60%;
-        width:25%;
-        font-size: 19px;
-        position: absolute;
-        top:0;
-        z-index:5;
-    }
-    .navbar .navbar-nav .dropdown li {
-        font-size: 20px;
-    }
-    .contenedorDeLi{
-        width: 100%;
-        padding-top:1rem;
-    }
-
-    /*img index*/
-    .pieDePagina{
-        display: flex;
-        align-items: center;
-        justify-content:start;
-        border-top: 2px solid rgb(210, 208, 208);
-        padding-top: 2rem;
-        height: 10rem;
-    }
-    .divImgIndex{
-        max-width: 200px;
-        max-height: 200px;
-    }
-    /*pie de pagina tarjetas*/
-    .pieDePagina div{
-        height:3rem;
-        width:3rem;
-        margin-left:10px;
-    }
-
-    /*CONTACTANOS HTML*/
-    .headerDeContactos .imagenLogoContactanos{
-        margin-top:1rem;
-    }
-
-    /*iNFORMACION HTML*/
-    /*info*/
-    .comoPrepararMate{
-        font-size: 12px;
-        width: 750px;
-    }
-    .seccionInfo1 iframe{
-        height:300px;
-        width:700px;
-    }
-    /*seccion-2*/
-    .comoCurarMate{
-        font-size: 12px;
-        width: 750px;
-    }
-    .seccionInfo2 iframe{
-        height:300px;
-        width:700px;
-    }
-    /*seccion-3*/
-    .mitos{
-        font-size: 11px;
-        width: 750px;
-    }
-
-    /*PRODUCTOS HTML*/
-    /*productos*/
-    .contenedorImagenesGrid{
-        height: 750px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-top: 2rem;
-    }
-    .imagenesProductos{
-        height:120px;
+    margin-top: 2rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores {
+      /*mates*/
+      /*bombillas*/
+      /*termos*/ }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .imagenesProductos {
+        height: 120px;
         width: 120px;
-        margin-top:2rem;
-        border: 1px solid rgb(189, 184, 184);
-        margin-right:0.2rem;
-    }
-    .divDelTexto{
-        background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
         max-width: 120px;
         padding: 5px;
-        border-radius: 0px 0px 10px 10px;
-
-    }
-
-    .divDelTexto p{
-        font-size: 9px;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        text-align: left;
-        max-height: 1.7rem;
-    }  
-}
-
-/*QUERIS-2*/
-@media (max-width:800px) and (min-width:650px) {
-    /*inicio*/
-    .navbar{
-        border: 1px solid rgb(188, 184, 184);
-        border-radius:5px;
-        margin-top:26px;
-        margin-left:50%;
-        width:29%;
-        font-size: 19px;
-        position: absolute;
-        top:0;
-        z-index:5;
-    }
-    .navbar .navbar-nav .dropdown li {
-        font-size: 17px;
-        margin-bottom: 1rem;
-    }
-    .contenedorDeLi{
-        width: 100%;
-        padding-top:1.2rem;
-    }
-    /*img index*/
-    .divImgIndex{
-        max-width: 160px;
-        max-height: 160px;
-    }
-    /*etiqueta*/
-    .contenedorEtiqueta p{
-        font-size: 9px;
-        padding-left:1rem ;
-        padding-right: 1rem;
-    }
-    /*pie de pagina tarjetas*/
-    .pieDePagina div{
-        height:2rem;
-        width:2rem;
-        margin-left:5px;
-    }
-    .pieDePagina p{
-        margin-top: 1rem;
-        font-size: 14px;
-    }
-
-
-    /*CONTACTANOS HTML*/
-    .headerDeContactos .imagenLogoContactanos{
-        margin-top:1rem;
-    }
-
-
-    /*iNFORMACION HTML*/
-    /*info*/
-     .comoPrepararMate{
-        font-size: 10px;
-        width: 550px;
-    }
-     .seccionInfo1 iframe{
-       height:300px;
-       width:500px;
-    }
-     /*seccion-2*/
-    .comoCurarMate{
-        font-size: 10px;
-        width: 550px;
-    }
-    .seccionInfo2 iframe{
-        height:300px;
-        width:550px;
-    }
-    /*seccion-3*/
-    .mitos{
-        font-size: 10px;
-        width: 550px;
-    }
-    .mitos .gif{
-        width: 550px;
-        height: 200px;
-    }
-
-
-    /*PRODUCTOS HTML*/
-    /*productos*/
-    .contenedorImagenesGrid{
-        height: 1500px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    } 
-    .contenedorDeContenedores{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "mate1 mate2 mate3"
-                             "mate4 mate5 mate6"
-                             "bombilla1 bombilla2 bombilla3"
-                             "bombilla4 bombilla5 bombilla6"
-                             "termo1 termo2 termo3"
-                             "termo4 termo4 termo4";
-        
-        justify-content:space-around;
-        align-items:center;
-    }
-    
-    /*mates grid*/
-    .contenedorMate{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "mate1 mate2 mate3"
-                             "mate4 mate5 mate6";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlMate{
-        height: 600px;
-    }
-
-    /*bombilla grid*/
-    .contenedorbomBombilla{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "bombilla1 bombilla2 bombilla3"
-                             "bombilla4 bombilla5 bombilla6";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlBombilla{
-        height: 600px;
-    }
-
-    /*termos grid*/
-    .contenedorbomTermos{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas:"termo1 termo2 termo3"
-                            "termo4 termo4 termo4";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlTermos{
-        height: 600px;
-    }
-}
-
-/*QUERIS-3*/
-@media (max-width:650px) and (min-width:490px){
-    /*inicio*/
-    .navbar{
-        border: 1px solid rgb(188, 184, 184);
-        border-radius:5px;
-        margin-top:26px;
-        margin-left:30%;
-        width:40%;
-        font-size: 14px;
-        position: absolute;
-        top:0;
-        z-index:2;
-     }
-     .navbar .navbar-nav .dropdown li {
-        font-size: 14px;
-        margin-bottom: 1rem;
-    }
-    .contenedorDeLi{
-        padding-top:1.2rem;
-    }
-    /*slider*/
-    .contenedorImg img{
-        height: 420px;
-        object-fit: fill;
-    }
-    /*img index*/
-    .divImgIndex{
-        max-width: 130px;
-        max-height: 130px;
-    }
-    /*etiqueta*/
-    .contenedorEtiqueta p{
-        font-size: 8.5px;
-        padding-left:1rem ;
-        padding-right: 1rem;
-    }
-    /*pie de pagina tarjetas*/
-    .pieDePagina div{
-        height:2.5rem;
-        width:2.5rem;
-        margin-left:4px;
-    }
-    .pieDePagina p{
-        margin-top: 1rem;
-        font-size: 16px;
-    }
-    .textoPieDePagina {
-        width: 11rem;
-        margin-left: 2rem;
-        padding-right: 3rem;
-    }
-    .textoPieDePagina .texto1{
-        font-size: 10px;
-    }
-    .textoPieDePagina .texto2{
-        font-size: 10px;
-    }
-
-    /*CONTACTANOS HTML*/
-    .headerDeContactos .imagenLogoContactanos{
-        margin-top:17px;
-    }
-
-
-    /*iNFORMACION HTML*/
-    /*info*/
-    .comoPrepararMate{
-        font-size: 10px;
-        width: 350px;
-    }
-     .seccionInfo1 iframe{
-        height:200px;
-        width:350px;
-    }
-     /*seccion-2*/
-    .comoCurarMate{
-        font-size: 10px;
-        width: 350px;
-    }
-    .seccionInfo2 iframe{
-        height:200px;
-        width:350px;
-    }
-    /*seccion-3*/
-    .mitos{
-        font-size: 10px;
-        width:380px;
-        margin-left:3rem;
-    }
-    .mitos .gif{
-        width: 350px;
-        height: 150px;
-    }
-
-    
-    /*PRODUCTOS HTML*/
-    /*productos*/
-    .contenedorImagenesGrid{
-        height: 1500px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    } 
-    .contenedorDeContenedores{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "mate1 mate2 mate3"
-                             "mate4 mate5 mate6"
-                             "bombilla1 bombilla2 bombilla3"
-                             "bombilla4 bombilla5 bombilla6"
-                             "termo1 termo2 termo3"
-                             "termo4 termo4 termo4";
-        
-        justify-content:space-around;
-        align-items:center;
-    }
-    
-    /*mates grid*/
-    .contenedorMate{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "mate1 mate2 mate3"
-                             "mate4 mate5 mate6";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlMate{
-        height: 600px;
-    }
-
-    /*bombilla grid*/
-    .contenedorbomBombilla{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas: "bombilla1 bombilla2 bombilla3"
-                             "bombilla4 bombilla5 bombilla6";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlBombilla{
-        height: 600px;
-    }
-
-    /*termos grid*/
-    .contenedorbomTermos{
-        grid-template-columns:auto;
-        grid-template-rows:auto;
-        display: grid;
-        grid-template-areas:"termo1 termo2 termo3"
-                            "termo4 termo4 termo4";
-        justify-content:space-around;
-        align-items:center;
-    }
-    .contenedorImagenesHtmlTermos{
-        height: 600px;
-    }
-    /*img peoductos*/
-    .imagenesProductos{
-        height:130px;
-        width: 130px;
-        margin-top:2rem;
-        border: 1px solid rgb(189, 184, 184);
-        margin-right:0.5rem;
-    }
-    .divDelTexto{
-        background: linear-gradient(rgb(189, 184, 184),rgb(52, 52, 55));
-        max-width: 130px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
         padding: 5px;
-        border-radius: 0px 0px 10px 10px;
-    }
-    .divDelTexto:hover{
-        background:linear-gradient(rgb(108, 106, 106),rgb(31, 31, 32)) ;
-    }
-    .divDelTexto p{
-        font-size: 12px;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        text-align: left;
-    }    
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .imagenesProductos {
+        height: 120px;
+        width: 120px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 120px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+  .mainDeMate {
+    height: 200px; }
+  .mainDeBombillas {
+    height: 200px; }
+  .mainDeTermos {
+    height: 200px; } }
 
-}
- 
+/*media de tablet*/
+@media (max-width: 800px) and (min-width: 650px) {
+  .header .instagram {
+    margin-top: 0px; }
+  .header .navbar {
+    border: 1px solid #bcb8b8;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-left: 50%;
+    width: 29%;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    z-index: 5; }
+    .header .navbar .contenedorDeLi {
+      width: 100%;
+      padding-top: 1.2rem; }
+      .header .navbar .contenedorDeLi .dropdown .menuDrop li {
+        font-size: 17px;
+        margin-bottom: 1rem; }
+  .imagenesIndexSeccion .divImgIndex {
+    max-width: 160px;
+    max-height: 160px; }
+  .contenedorEtiqueta p {
+    font-size: 9px;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  footer .pieDePagina .imgDePieDePagina3 {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5px; }
+  footer .pieDePagina .textoPieDePagina .texto1 {
+    font-size: 9px; }
+  footer .pieDePagina .textoPieDePagina .texto2 {
+    font-size: 9px; }
+  /*info queris*/
+  .seccionInfo1 .comoPrepararMate {
+    max-width: 600px; }
+    .seccionInfo1 .comoPrepararMate ol {
+      width: 600px;
+      font-size: 11px; }
+  .seccionInfo1 iframe {
+    width: 600px;
+    height: 300px; }
+  .seccionInfo2 .comoCurarMate {
+    max-width: 600px; }
+    .seccionInfo2 .comoCurarMate ol {
+      width: 600px;
+      font-size: 11px; }
+  .seccionInfo2 iframe {
+    width: 600px;
+    height: 300px; }
+  .seccionInfo3 {
+    margin-left: 5%;
+    margin-right: 5%; }
+    .seccionInfo3 .mitos {
+      max-width: 600px;
+      margin-right: 5rem; }
+      .seccionInfo3 .mitos ol {
+        width: 600px;
+        font-size: 10px;
+        margin-left: 4rem; }
+      .seccionInfo3 .mitos img {
+        width: 200px;
+        height: 200px; }
+  /*productos queri*/
+  .contenedorImagenesGrid {
+    height: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores {
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      display: grid;
+      grid-template-areas: "mate1 mate2 mate3" "mate4 mate5 mate6" "bombilla1 bombilla2 bombilla3" "bombilla4 bombilla5 bombilla6" "termo1 termo2 termo3" "termo4 termo4 termo4";
+      justify-content: space-around;
+      align-items: center;
+      /*mates*/
+      /*bombillas*/
+      /*termos*/ }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+  /*bombillas queri*/
+  .mainDeBombillas .contenedorImagenesGrid .contenedorDeContenedores {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-areas: "bombilla1 bombilla2 bombilla3" "bombilla4 bombilla5 bombilla6";
+    justify-content: space-around;
+    align-items: center; }
+  /*termo queri*/
+  .mainDeTermos .contenedorImagenesGrid .contenedorDeContenedores {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-areas: "termo1 termo2 termo3" "termo4 termo4 termo4";
+    justify-content: space-around;
+    align-items: center; } }
 
-
-
-
-
-
-
-
+/*media mobil*/
+@media (max-width: 650px) and (min-width: 490px) {
+  .header .instagram {
+    margin-right: 2rem;
+    background-color: whitesmoke; }
+  .header .navbar {
+    border: 1px solid #bcb8b8;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-left: 35%;
+    width: 40%;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    z-index: 2; }
+    .header .navbar .contenedorDeLi {
+      width: 100%;
+      padding-top: 1.2rem; }
+      .header .navbar .contenedorDeLi .dropdown .menuDrop li {
+        font-size: 17px;
+        margin-bottom: 1rem; }
+  main section .contenedorDeImgPrincipal .contenedorImg div img {
+    height: 420px;
+    object-fit: fill; }
+  .imagenesIndexSeccion .divImgIndex {
+    max-width: 130px;
+    max-height: 130px; }
+  .contenedorEtiqueta p {
+    font-size: 8.5px;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  footer .pieDePagina .pDePie {
+    font-size: 11px; }
+  footer .pieDePagina .imgDePieDePagina3 {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 4px; }
+  footer .pieDePagina .textoPieDePagina {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    footer .pieDePagina .textoPieDePagina .texto1 {
+      font-size: 7px; }
+    footer .pieDePagina .textoPieDePagina .texto2 {
+      font-size: 7px; }
+  /*info queris*/
+  .seccionInfo1 .comoPrepararMate {
+    max-width: 400px; }
+    .seccionInfo1 .comoPrepararMate ol {
+      width: 400px;
+      font-size: 10px; }
+  .seccionInfo1 iframe {
+    height: 200px;
+    width: 350px; }
+  .seccionInfo2 .comoCurarMate {
+    max-width: 400px; }
+    .seccionInfo2 .comoCurarMate ol {
+      width: 400px;
+      font-size: 10px; }
+  .seccionInfo2 iframe {
+    height: 200px;
+    width: 350px; }
+  .seccionInfo3 {
+    margin-left: 10%; }
+    .seccionInfo3 .mitos {
+      max-width: 400px; }
+      .seccionInfo3 .mitos ol {
+        width: 500px;
+        font-size: 10px; }
+      .seccionInfo3 .mitos img {
+        width: 150px;
+        height: 150px; }
+  /*productos queri*/
+  .contenedorImagenesGrid {
+    height: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+    .contenedorImagenesGrid .contenedorDeContenedores {
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      display: grid;
+      grid-template-areas: "mate1 mate2 mate3" "mate4 mate5 mate6" "bombilla1 bombilla2 bombilla3" "bombilla4 bombilla5 bombilla6" "termo1 termo2 termo3" "termo4 termo4 termo4";
+      justify-content: space-around;
+      align-items: center;
+      /*mates*/
+      /*bombillas*/
+      /*termos*/ }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .mates6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas5 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .bombillas6 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos1 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos2 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos3 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .imagenesProductos {
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        border: 1px solid #bdb8b8;
+        margin-right: 0.2rem; }
+      .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto {
+        background: linear-gradient(#bdb8b8, #343437);
+        max-width: 100px;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px; }
+        .contenedorImagenesGrid .contenedorDeContenedores .termos4 .divDelTexto p {
+          font-size: 9px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+          text-align: left;
+          max-height: 1.7rem; }
+  /*bombillas queri*/
+  .mainDeBombillas .contenedorImagenesGrid .contenedorDeContenedores {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-areas: "bombilla1 bombilla2 bombilla3" "bombilla4 bombilla5 bombilla6";
+    justify-content: space-around;
+    align-items: center; }
+  /*termo queri*/
+  .mainDeTermos .contenedorImagenesGrid .contenedorDeContenedores {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-template-areas: "termo1 termo2 termo3" "termo4 termo4 termo4";
+    justify-content: space-around;
+    align-items: center; } }

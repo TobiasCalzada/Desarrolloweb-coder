@@ -1,0 +1,28 @@
+//estructura-contactanos
+
+    main{
+        div{
+            div{
+                div{
+                    div{
+                        .headerDeContactos{
+                            margin-top: 10px;
+                            display: flex;
+                            justify-content: space-between;
+                        } 
+                    }
+                }
+            }
+        }
+        .tituloFormulario{
+            font-family: 'Oswald', sans-serif;
+        }
+        form{
+           div{
+            .fuenteDeLabel{
+            font-weight: bold;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+           } 
+        }
+    }
