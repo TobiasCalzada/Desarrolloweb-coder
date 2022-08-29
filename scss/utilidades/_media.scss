@@ -975,8 +975,13 @@
 }
 
 /*media mobil*/
-@media (max-width:650px) and (min-width:490px){
+@media (max-width:650px) and (min-width:400px){
     .header{
+        .imagenLogo{
+            width: 100px;
+            height: 100px;
+            padding-top: 5px;
+        }
         .instagram{
             margin-right:2rem;
             background-color: whitesmoke;
@@ -985,8 +990,8 @@
             border: 1px solid rgb(188, 184, 184);
             border-radius:5px;
             margin-top:26px;
-            margin-left:35%;
-            width:40%;
+            margin-left:28%;
+            width:47%;
             font-size: 14px;
             position: absolute;
             top:0;
@@ -1021,8 +1026,8 @@
     }
     .imagenesIndexSeccion{
         .divImgIndex{
-            max-width: 130px;
-            max-height: 130px;
+            max-width: 100px;
+            max-height: 100px;
         }
     }
     .contenedorEtiqueta{
@@ -1059,8 +1064,8 @@
         .comoPrepararMate{
             max-width: 400px;
             ol{
-                width: 400px;
-                font-size: 10px;
+                width: 350px;
+                font-size: 9px;
             }
         }
         iframe{
@@ -1072,8 +1077,8 @@
         .comoCurarMate{
             max-width: 400px;
             ol{
-                width: 400px;
-                font-size: 10px;
+                width: 350px;
+                font-size: 9px;
             }
         }
         iframe{
@@ -1082,12 +1087,13 @@
         }
     }
     .seccionInfo3{
-        margin-left: 10%;
+        margin-left: 0;
         .mitos{
             max-width: 400px;
             ol{
-                width: 500px;
-                font-size: 10px;
+                width: 300px;
+                font-size: 9px;
+                padding-right: 1rem;
             }
             img{
                 width: 150px;

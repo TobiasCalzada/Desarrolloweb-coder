@@ -1358,7 +1358,11 @@ main .seccionInfo3 {
     align-items: center; } }
 
 /*media mobil*/
-@media (max-width: 650px) and (min-width: 490px) {
+@media (max-width: 650px) and (min-width: 400px) {
+  .header .imagenLogo {
+    width: 100px;
+    height: 100px;
+    padding-top: 5px; }
   .header .instagram {
     margin-right: 2rem;
     background-color: whitesmoke; }
@@ -1366,8 +1370,8 @@ main .seccionInfo3 {
     border: 1px solid #bcb8b8;
     border-radius: 5px;
     margin-top: 26px;
-    margin-left: 35%;
-    width: 40%;
+    margin-left: 28%;
+    width: 47%;
     font-size: 14px;
     position: absolute;
     top: 0;
@@ -1382,8 +1386,8 @@ main .seccionInfo3 {
     height: 420px;
     object-fit: fill; }
   .imagenesIndexSeccion .divImgIndex {
-    max-width: 130px;
-    max-height: 130px; }
+    max-width: 100px;
+    max-height: 100px; }
   .contenedorEtiqueta p {
     font-size: 8.5px;
     padding-left: 1rem;
@@ -1405,26 +1409,27 @@ main .seccionInfo3 {
   .seccionInfo1 .comoPrepararMate {
     max-width: 400px; }
     .seccionInfo1 .comoPrepararMate ol {
-      width: 400px;
-      font-size: 10px; }
+      width: 350px;
+      font-size: 9px; }
   .seccionInfo1 iframe {
     height: 200px;
     width: 350px; }
   .seccionInfo2 .comoCurarMate {
     max-width: 400px; }
     .seccionInfo2 .comoCurarMate ol {
-      width: 400px;
-      font-size: 10px; }
+      width: 350px;
+      font-size: 9px; }
   .seccionInfo2 iframe {
     height: 200px;
     width: 350px; }
   .seccionInfo3 {
-    margin-left: 10%; }
+    margin-left: 0; }
     .seccionInfo3 .mitos {
       max-width: 400px; }
       .seccionInfo3 .mitos ol {
-        width: 500px;
-        font-size: 10px; }
+        width: 300px;
+        font-size: 9px;
+        padding-right: 1rem; }
       .seccionInfo3 .mitos img {
         width: 150px;
         height: 150px; }
